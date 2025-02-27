@@ -8,7 +8,7 @@ import os
 import argparse
 
 load_dotenv(dotenv_path=".env")
-DEEPSEEK_API = os.getenv('DEEPSEEK_API')
+SEEK_API = os.getenv('DEEPSEEK_API')
 
 parser = argparse.ArgumentParser(description='AI Agent Network Automation')
 parser.add_argument('-q', '--query', type=str, help='entre your query')
